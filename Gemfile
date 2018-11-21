@@ -3,7 +3,7 @@ source 'http://rubygems.org'
 group :runtime do
   gem "sexpr", "~> 0.6.0"
 
-  gem "alf-core", path: "../alf-core"
+  gem "alf-core", git: "https://github.com/Keemotion/alf-core.git"
 end
 
 group :development do
